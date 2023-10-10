@@ -1,0 +1,25 @@
+a{
+    color: purple;
+}
+.main-punkt a{
+    color: green;
+}
+.sub-punkt1 a{
+    content: "";
+    color: purple;
+    list-style: none;
+}
+.sub-punkt2 li {
+    list-style-image: url("li.svg");
+    color: purple;
+}
+.sub-punkt3 li{
+    list-style: square;
+    color: purple;
+}
+.sub-punkt3 a{
+    text-decoration: none;
+}
+.sub-punkt4{
+    list-style-position: inside;
+}
