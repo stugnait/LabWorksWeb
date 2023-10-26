@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css3/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div align="center">
+    <form>
+        <fieldset>
+            <legend>MainInfo</legend>
+            <label content="">
+                <br>
+                <label>Name <input name="name" value="" TABINDEX="1" required placeholder="Bob"></label>
+                <br>
+                <br>
+
+
+                <label>Hobby<textarea name="hobby" TABINDEX="2" required
+                                      placeholder="volleyball etc."></textarea></label>
+                <br>
+                <br>
+
+                <label>password<input name="password" TABINDEX="3" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*[1-9]).{6}$"
+                                      required placeholder="password" type="password"></label>
+                <br>
+                <br>
+
+                <label>e-mail<input name="email" pattern="[a-zA-Z0-9._%+-]+@gmail.com" autocomplete="off"
+                                    placeholder="example@gmail.cpm" type="email"></label>
+                <br>
+                <br>
+
+                <label>phone number<input name="phonen" pattern="[0-9]{10}" placeholder="+380" type="tel"></label>
+                <br>
+                <br>
+
+                <label>date of birth<input name="birthday" type="date"></label>
+                <br>
+                <br>
+
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Rating</legend>
+            <label>
+                rate yourself(1-3)<br>
+                <input type="radio" name="radioButtons" value="bad">
+                <input type="radio" name="radioButtons" value="normal">
+                <input type="radio" name="radioButtons" value="good">
+            </label>
+
+            <br><br>
+
+            <label>
+                rate website(1-3)<br>
+                <input type="radio" name="radioButtons1" value="bad">
+                <input type="radio" name="radioButtons1" value="normal">
+                <input type="radio" name="radioButtons1" value="good">
+            </label>
+
+            <br><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>AdditionalInfo</legend>
+
+            <label>
+                <h3>I play:</h3>
+                <input type="checkbox" name="checkbox" value="volleyball">volleyball
+                <input type="checkbox" name="checkbox" value="football">football
+                <input type="checkbox" name="checkbox" value="basketball">basketball
+                <input type="checkbox" name="checkbox" value="baseball">baseball
+            </label>
+
+            <br><br>
+
+
+            <label>I have
+                <select>
+                    <option name="siblings" value="sister">sister</option>
+                    <option name="siblings" value="brother">brother</option>
+                    <option name="siblings" value="none" selected="selected">none</option>
+                </select>
+            </label>
+
+            <br><br>
+
+            <label>
+                How many?
+                <select multiple="multiple">
+                    <option selected="selected" name="numberOfSiblings" value="0">0</option>
+                    <option name="numberOfSiblings" value="1">1</option>
+                    <option name="numberOfSiblings" value="2">2</option>
+                    <option name="numberOfSiblings" value="3">3</option>
+                    <option name="numberOfSiblings" value="4">4</option>
+                    <option name="numberOfSiblings" value="5">5+</option>
+
+                </select>
+            </label>
+
+            <br>
+            <br>
+
+
+            <label>
+                What do you prefer?
+                <select name="favourite">
+                    <optgroup content="FastFood" label="s">
+                        <option value="pizza">pizza</option>
+                        <option value="burger">burger</option>
+                        <option value="fries">fries</option>
+                    </optgroup>
+                    <optgroup content="sweet" label="">
+                        <option value="cake">Cake</option>
+                        <option value="candy">Candy</option>
+                        <option value="ice cream">Ice Cream</option>
+                    </optgroup>
+                    <optgroup label="">
+                        <option value="apple">Apple</option>
+                        <option value="banana">Banana</option>
+                        <option value="cucumber">Cucumber</option>
+                    </optgroup>
+
+                </select>
+            </label>
+
+            <br>
+            <br>
+
+
+            <label>
+                Do you drink?<br>
+                <input name="alcoholic" list="datalist">
+            </label>
+
+
+            <datalist id="datalist">
+                <option value="Yes">Yessss</option>
+                <option value="No">Yes</option>
+                <option value="Sometimes">Yes</option>
+            </datalist>
+
+            <br>
+            <br>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>IDK</legend>
+
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+
+            <br>
+            <br>
+            <input name="audio" type="file" accept="audio/*" multiple="multiple">
+
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>

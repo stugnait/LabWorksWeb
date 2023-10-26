@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Ви можете замінити Arial на інший шрифт */
+}
+
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+.alogo{
+    width: 80px;
+    height: 80px;
+    float: left;
+    padding-left: 10px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+}
+li{
+    margin: 10px;
+    float: right;
+}
+li a{
+    display: inline-block;
+    padding: 10px;
+    background: purple;
+    text-decoration: none;
+    color: white;
+}
+header{
+    height: 100px;
+}
+.infoD {
+    width: 300px;
+    border: 3px solid purple;
+    text-align: justify;
+    margin: 10px;
+    padding: 0 15px 15px 15px;
+}
+.firstDiv{
+    border: 4px solid purple;
+    border-radius: 30px;
+}
+.div2{
+    border: 4px solid purple;
+    border-radius: 80px 0;
+}
+.div3{
+    border: 4px solid purple;
+    border-radius: 50px 180px 60px 150px;
+}
+.div4{
+    border-radius: 150px/40px;
+    border-top: 16px solid green;
+    border-bottom: 16px solid green;
+    border-left: 16px solid greenyellow;
+    border-right: 16px solid greenyellow;
+
+}
+.div5{
+    border: 16px solid;
+    border-color: lawngreen green;
+    border-radius:200px 100px / 50px 30px;
+}
+.div6{
+    border: 16px solid;
+    border-color: lawngreen lawngreen lawngreen darkgreen;
+    border-bottom-right-radius: 100%;
+}
+.div7{
+    border: 15px solid;
+    border-image-source: url("../img/border-image-1.png");
+    border-image-slice: 20;
+}
+.div8{
+    border: 15px solid;
+    border-image-source: url("../img/border-image-1.png");
+    border-image-slice: 15;
+    border-image-repeat: round;
+}
+.div9{
+    border: 15px solid;
+    border-image-source: url("../img/border-image-1.png");
+    border-image-slice: 30;
+    border-image-repeat: round;
+}
+.div10{
+    border: 15px solid;
+    border-image-source: url("../img/red border.png");
+    border-image-slice: 40;
+}
+.div11{
+    border: 15px solid;
+    border-image-source: url("../img/red border.png");
+    border-image-slice: 20;
+    border-image-repeat: round;
+}
+.div12{
+    border: 15px solid;
+    border-image-source: url("../img/red border.png");
+    border-image-slice: 25;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

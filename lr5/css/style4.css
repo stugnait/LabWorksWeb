@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Ви можете замінити Arial на інший шрифт */
+}
+
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+.alogo{
+    width: 80px;
+    height: 80px;
+    float: left;
+    padding-left: 10px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+}
+li{
+    margin: 10px;
+    float: right;
+}
+li a{
+    display: inline-block;
+    padding: 10px;
+    background: purple;
+    text-decoration: none;
+    color: white;
+}
+header{
+    height: 100px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imgDiv{
+    width: 250px;
+    height: 300px;
+    border: 1px solid green;
+    margin: 20px;
+    background: white;
+}
+.sh1{
+    box-shadow: -5px -5px 10px green;
+}
+.sh2{
+    box-shadow: 0px 0px 10px 6px green, 0px 0px 10px 6px green;
+}
+.sh3{
+    box-shadow: 5px 5px rgba(29, 238, 7, 0.5);
+}
+.sh4{
+    box-shadow: 0px 0px 40px 0px rgba(29, 238, 7, 0.5), 0px 0px 40px 0px rgba(29, 238, 7, 0.5);
+}
+.sh5{
+    box-shadow: inset -5px 0px 0px blue, inset 0 -5px yellow, inset 0 5px green, inset 5px 0 red;
+}
+.sh6{
+    box-shadow: 0px -5px 0px -2px yellow, 0 5px 0px -2px green;
+}

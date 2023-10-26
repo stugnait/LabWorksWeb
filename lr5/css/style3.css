@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Ви можете замінити Arial на інший шрифт */
+}
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+.alogo{
+    width: 80px;
+    height: 80px;
+    float: left;
+    padding-left: 10px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+}
+li{
+    margin: 10px;
+    float: right;
+}
+li a{
+    display: inline-block;
+    padding: 10px;
+    background: purple;
+    text-decoration: none;
+    color: white;
+}
+header{
+    height: 100px;
+}
+h4{
+    text-align: center;
+}
+.firstBlock{
+    border-radius: 55px;
+    background: maroon;
+    text-align: justify;
+    padding: 30px;
+    color: white;
+}
+.secondBlock{
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 55px;
+    text-align: justify;
+    padding: 30px;
+    color: white;
+    background: indianred;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.insBlock{
+    width: 400px;
+    padding: 30px;
+    text-align: justify;
+    color: white;
+    background: brown;
+    border-radius: 55px;
+    margin: 40px;
+}
