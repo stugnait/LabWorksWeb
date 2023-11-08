@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@200&family=Lexend:wght@200&family=Roboto+Condensed&family=Roboto:wght@100;300;400&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    font-family: 'Caveat', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    width: 75%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.icon img {
+    width: 25px;
+    height: 25px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 50%;
+}
+
+.navbar img {
+    width: 20px;
+    height: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 10px 0 10px;
+}
+
+.box {
+    background-color: pink;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.slogan {
+    width: 100%;
+    background-color: lightgray;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.slogan div {
+    padding-left: 15%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.f-35 {
+    font-size: 35px;
+}
+
+.message-for-mosaic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.message-for-mosaic button {
+    font-size: 1.5em;
+    background-color: #d25826;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.photos img {
+    width: calc(33% - 10px);
+}
+
+.contact-us-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-us-button > p {
+    font-size: 35px;
+}
+
+.contact-us-button button {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: #d25826;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.contact-us-button img {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+}
+
+.types-of-work {
+    display: flex;
+}
+
+.types-of-work > div {
+    width: calc(25% - 10px);
+}
+
+.types-of-work img {
+    width: 50%;
+}
+
+.types-of-work img:nth-child(2) {
+    width: 10%;
+}
+
+.types-of-work > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.from-the-journal-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.from-the-journal-items > div {
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.from-the-journal-items img {
+    width: 40%;
+    float: left;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.burger-menu-items {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+}
+
+.from-the-journal-items p {
+    color: gray;
+    padding: 0;
+    margin: 0;
+}
+
+.from-the-journal-items h1 {
+    font-size: 24px;
+    padding: 0;
+    margin: 5px;
+}
+
+.from-the-journal-items h3 {
+    padding: 0;
+    margin: 5px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #343434;
+    color: #b7b7b7;
+    padding: 3%;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-networks img {
+    width: 3%;
+    margin: 3px;
+}
+
+@media (width > 768px) {
+
+}
+
+@media (width <= 768px) {
+    .photos img {
+        width: calc(50% - 10px);
+    }
+
+    .types-of-work {
+        flex-wrap: wrap;
+    }
+
+    .types-of-work > div {
+        width: calc(50% - 10px);
+    }
+
+    .from-the-journal-items > div {
+        width: 100%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .burger-menu-btn {
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        top: 25px;
+        right: 25px;
+        z-index: 1;
+
+    }
+
+    .burger-menu-btn {
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        top: 25px;
+        right: 25px;
+        z-index: 1;
+
+    }
+
+    .burger-menu-btn-clicked {
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        top: 25px;
+        right: 25px;
+        z-index: 1;
+    }
+
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    .burger-menu-btn:before,
+    .burger-menu-btn:after {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 3px;
+        background-color: black;
+        top: 20px;
+        right: 10px;
+    }
+
+    .burger-menu-btn-clicked:before,
+    .burger-menu-btn-clicked:after {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 3px;
+        background-color: black;
+        top: 20px;
+        right: 10px;
+    }
+
+    .third-line {
+        height: 3px;
+        width: 40px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: black;
+    }
+
+    .burger-menu-items {
+        margin: 0;
+    }
+
+    .burger-menu-btn:after {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 3px;
+        background-color: black;
+        top: 30%;
+        right: 10px;
+    }
+
+    .burger-menu-btn-clicked:after {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 3px;
+        background-color: black;
+        top: 30%;
+        right: 10px;
+    }
+
+    .burger-menu-items {
+        flex-direction: column;
+        background-color: gray;
+        height: 100%;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .burger-menu-items {
+        list-style-type: none;
+    }
+
+    .burger-menu-items img {
+        width: 20px;
+    }
+}
+
+@media (width <= 576px) {
+    .photos img {
+        width: 100%;
+    }
+
+    .types-of-work > div {
+        width: 100%;
+    }
+
+
+    .from-the-journal-items > div {
+        width: 100%;
+        flex-direction: column;
+        overflow-wrap: break-word;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .from-the-journal-items img {
+        float: none;
+        width: 100%;
+    }
+}

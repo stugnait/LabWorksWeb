@@ -1,0 +1,44 @@
+body{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: #cccccc;
+}
+
+main{
+    margin: 0 600px 0 600px;
+}
+.firstRectangle{
+    border: black 5px solid;
+    background-color: darkgreen;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.secondRectangle{
+    display: flex;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.thirdRectangle{
+    border: black 5px solid;
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+.firstSubRectangle{
+    width: 30%;
+    border: black 5px solid;
+    background-color: darkgreen;
+    text-align: center;
+    margin-right: 30px;
+}
+.secondSubRectangle{
+    width: 70%;
+    border: black 5px solid;
+    background-color: green;
+    text-align: center;
+}

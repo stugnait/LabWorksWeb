@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cloud {
+    position: absolute;
+    width: 250px;
+    z-index: 5;
+    left: 40px;
+}
+
+.main-content {
+    position: relative;
+    width: 30%;
+    background-color: #918989;
+    height: 200px;
+    z-index: 0;
+}
+
+h1 {
+    color: gray;
+    margin: 0;
+}
+
+.black-box {
+    z-index: 2;
+    display: flex;
+    align-items: end;
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    background-color: black;
+    top: 10px;
+    left: 40px;
+    box-shadow: 10px 10px 25px 1px black;
+}
+
+.temperatures {
+    padding-top: 15%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    top:55%;
+    left: 30%;
+    right: 5%;
+    background-color: #a29898;
+    box-shadow: 2px 2px 1px 1px gray;
+}
+
+.day {
+    color: lightgray;
+}
+
+.strelochki {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    left: 16px;
+    top: 40px;
+}
+
+.strelochki div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.strelochki div:nth-child(1){
+    background-color: darkgray;
+}
+
+.strelochki div:nth-child(2){
+    background-color: gray;
+}
+

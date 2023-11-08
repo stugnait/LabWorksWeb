@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@200&family=Lexend:wght@200&family=Roboto+Condensed&family=Roboto:wght@300;400&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, serif;
+}
+
+p {
+    margin: 0;
+    width: fit-content;
+}
+h1 {
+    margin: 0;
+    font-weight: lighter;
+    color: #504949;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.main-weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-weather-icon {
+    display: flex;
+}
+
+.main-weather-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+img {
+    width: 30%;
+}
+
+hr {
+    height: 1px;
+    background-color: gray;
+    width: 100%;
+}
+
+.weather-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.weather-info > p {
+    color: #504949;
+}
+
+.weather-icon {
+    width: 20%;
+}
+
+.day {
+    font-weight: bolder;
+    width: 25%;
+}
+
+.temp-info p:nth-child(1) {
+    font-weight: bolder;
+}
+.temp-info p:nth-child(2) {
+    color: gray;
+}
+
+.top-container p {
+    color: gray;
+}

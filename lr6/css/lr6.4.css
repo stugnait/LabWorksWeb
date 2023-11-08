@@ -1,0 +1,95 @@
+.top-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    position: sticky;
+}
+.main-list {
+    position: fixed;
+}
+
+.main-list li {
+    list-style-type: none;
+    display: inline;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.dropdown > a {
+    padding: 20px 20px 20px 20px;
+    background-color: gray;
+}
+
+.secret-list {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+}
+
+
+/*.secret-list a {*/
+/*    width: 100px;*/
+/*}*/
+.secret-list li {
+    display: block;
+}
+
+a:focus {
+    background-color: #1eff00;
+}
+
+.dropdown:hover .secret-list {
+    display: block;
+    top: 15px;
+    left: 50px;
+    z-index: 1;
+    background-color: gray;
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.vertical-panel {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.vertical-list {
+    list-style-type: none;
+}
+
+.vertical-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.secret-list-list {
+    position: absolute;
+    display: none;
+    list-style-type: none;
+}
+
+#block:hover .secret-list-list {
+    display: block;
+    left: 100px;
+    top: 10px;
+    z-index: 2;
+    background-color: gray;
+    border: 1px solid black;
+}

@@ -1,0 +1,37 @@
+body{
+    margin: auto;
+    width: 50%;
+    color: #cccccc;
+}
+
+div{
+    height: 40px;
+    text-align: center;
+}
+
+.firstRectangle{
+    background-color: #6AAD2d;
+    margin: auto;
+    width: 30%;
+}
+.secondRectangle{
+    visibility: hidden;
+    background-color: #6AAD2d;
+    margin: auto;
+    width: 60%;
+}
+.thirdRectangle{
+    visibility: hidden;
+    background-color: #6AAD2d;
+    margin: auto;
+    width:90%;
+
+}
+
+.firstRectangle:hover .secondRectangle{
+    visibility: visible;
+}
+
+.secondRectangle:hover .thirdRectangle{
+    visibility: visible;
+}
