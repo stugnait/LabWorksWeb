@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@200&family=Lexend:wght@200&family=Roboto+Condensed&family=Roboto:wght@100;300;400&display=swap');
-
-body, html {
+body {
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,10 +6,6 @@ body, html {
     justify-content: center;
     width: 100%;
     flex-direction: column;
-    font-family: 'Caveat', cursive;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Lexend', sans-serif;
-    font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -77,7 +71,7 @@ header {
     margin-top: 3%;
 }
 
-.f-35 {
+.emo {
     font-size: 35px;
 }
 
@@ -210,7 +204,7 @@ footer {
     justify-content: center;
     flex-direction: column;
     background-color: #343434;
-    color: #b7b7b7;
+    color: gray;
     padding: 3%;
 }
 
@@ -306,7 +300,7 @@ footer {
         right: 10px;
     }
 
-    .third-line {
+    .three-lines {
         height: 3px;
         width: 40px;
         position: absolute;
