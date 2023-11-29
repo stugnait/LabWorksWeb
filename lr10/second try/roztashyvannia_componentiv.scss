@@ -1,0 +1,47 @@
+@mixin niceBackground($userPadding: 10px) {
+  background-image: url("./icons/dissapear.gif");
+  background-size: cover;
+  background-position: center;
+  padding: $userPadding;
+}
+
+@mixin gridPosition($position) {
+  grid-area: $position;
+}
+
+.main-components {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  grid-template-rows: 15% auto 5% 10%;
+  grid-template-areas: "header header header header header"
+                        "nav article article article article"
+                        "nav ads ads ads ads"
+                        "footer footer footer footer footer";
+}
+
+.main-components div {
+  @include niceBackground(px);
+}
+
+.header {
+  @include gridPosition(header);
+}
+
+.nav {
+  @include gridPosition(nav);
+}
+
+.article {
+  @include gridPosition(article);
+}
+
+.ads {
+  @include gridPosition(ads);
+}
+
+.footer {
+  @include gridPosition(footer);
+}

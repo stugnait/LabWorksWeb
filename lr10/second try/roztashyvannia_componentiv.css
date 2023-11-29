@@ -1,0 +1,38 @@
+.main-components {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  grid-template-rows: 15% auto 5% 10%;
+  grid-template-areas: "header header header header header" "nav article article article article" "nav ads ads ads ads" "footer footer footer footer footer";
+}
+
+.main-components div {
+  background-image: url("icons/dissapear.gif");
+  background-size: cover;
+  background-position: center;
+  padding: px;
+}
+
+.header {
+  grid-area: header;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.article {
+  grid-area: article;
+}
+
+.ads {
+  grid-area: ads;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+/*# sourceMappingURL=roztashyvannia_componentiv.css.map */
